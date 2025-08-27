@@ -42,7 +42,7 @@ repo/
 1. **Clone the repo**
    ```bash
    git clone https://github.com/Tanmay-Jain0221/sgb_analysishttps://github.com/yourname/market-data-collector.git
-   cd market-data-collector
+   cd sgb_analysis
    ```
 
 
