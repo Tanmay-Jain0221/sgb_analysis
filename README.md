@@ -16,7 +16,7 @@ This project is designed for investors, analysts, and researchers who want a rel
 ## Project Structure
 
 ```
-repo/
+sgb_analysis/
 │
 ├── data/
 │   ├── nse_sgb_data/         # Collected NSE SGB CSV files
