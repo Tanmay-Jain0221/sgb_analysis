@@ -1,14 +1,16 @@
-# SGB in Secondary Markets Analysis
+# Sovereign Gold Bond (SGB) Analysis Toolkit
 
-This repository automates the collection of daily market data from three key Indian sources:
+Automated toolkit that collects Sovereign Gold Bond (SGB) data from NSE and BSE, along with daily IBJA gold benchmark rates, and integrates them into an Excel Power Query dashboard.
 
-- **NSE Sovereign Gold Bonds (SGB)**
-- **BSE Equity BhavCopy**
-- **IBJA Gold 999 PM Rates**
+The system automatically downloads the latest datasets, stores them in structured folders, and feeds them into a refreshable Excel workbook. By comparing SGB prices against IBJA’s official gold benchmark, the dashboard makes it easy to:
 
-It also contains an **Excel workbook** with Power Query connections that automatically refresh from the `data/` folder.  
-This makes the dataset portable: anyone who clones/downloads the repo can refresh the workbook and see the latest data.
+Spot discounts or premiums of different SGB series relative to spot gold.
 
+Highlight price discrepancies across NSE and BSE listings.
+
+Identify which SGB series offers the most attractive entry point for maximizing potential returns.
+
+This project is designed for investors, analysts, and researchers who want a reliable, daily-updated comparison between Sovereign Gold Bonds and the underlying gold price. With one refresh, you can instantly see which bond is the best value on that day, making informed investment decisions simpler and faster.
 ---
 
 ## Project Structure
