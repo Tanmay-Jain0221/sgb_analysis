@@ -162,16 +162,5 @@ This runs the pipeline every day at **18:00 (6 PM)** and logs output.
 
 ---
 
-## Requirements
-
-See [`requirements.txt`](requirements.txt).
-
-```txt
-pandas
-requests
-selenium
-```
-
-*(No extra WebDriver needed — Selenium Manager auto-downloads ChromeDriver.)*
-
----
+### Notes: 
+The code is MIT-licensed. The written analysis and narrative interpretation are not intended for commercial reuse without permission.
